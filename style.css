@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: whitesmoke
+
+
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.container-fluid {
+    background-color: black;
+    height: 11vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    margin-left: 1vw;
+}
+
+#logo{
+  
+    width: 88px;
+    height: 88px;
+}
+
+.nav-links {
+    color: white;
+    width: 20vw;
+    height: 80px;
+    margin-right: 5vw;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-links a{
+    color: white;
+}
+
+.nav-links a:hover{
+    color: blueviolet;
+}
+
+/* Body */
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around z;
+    align-items: center;
+    margin: 10vh;
+}
+
+
+.slider {
+    width: 1200px;
+    height: 650px;
+    display: flex;
+    overflow-x: auto;
+    background-color: whitesmoke;
+}
+
+.box-information{
+    margin-top: 10px;
+    width: 70%;
+}
+
+.slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 600px; 
+    flex-shrink: 0;
+    height: 100%; 
+}
+
+.slider .slide img {
+    width: 400px;
+    height: 250px;
+}
+
+
+
+
+button{
+    align-items: center;
+    border: 1px solid;
+    border-radius: 25px;
+    height: 7vh;
+    width: 80%;
+    background-color: lightslategrey;
+    color: white;
+}
+
+button:hover{
+    transform: scale(1.1);
+    background-color: green;
+}
+
+
+
